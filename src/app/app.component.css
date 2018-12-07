@@ -1,0 +1,39 @@
+.active-cyan-3 input[type=text] {
+    border: 1px solid #4dd0e1;
+    box-shadow: 0 0 0 1px #4dd0e1;
+    width: 70%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.aqua-gradient{
+    flex: 1 1 auto;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    background-image: linear-gradient(135deg, #00c7c5 0%, #8fd3f4 51%, #0088d7 100%)
+} 
+
+.aqua-gradient:hover{
+    background-position: right center;
+}
+
+.logo{
+    
+    width: auto;
+}
+
+.active-cyan-3 input[type=text]{
+    margin-left: 0%;
+}
+
+.homepagesb{
+    padding-top: 5%;
+}
